@@ -1,0 +1,41 @@
+.card {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.061);
+  border: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.192);
+}
+
+.pr-img {
+  overflow: hidden;
+}
+
+.pr-img img {
+  height: 400px;
+  transform: translateY(120px) scale(1.5);
+}
+
+.card-details {
+  padding: 20px 0px;
+  margin-top: 10px;
+  color: #fb6a58;
+}
+
+.project-dtls-btn {
+  background-color: #fb6957;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.project-dtls-btn:hover {
+  transform: scale(1.03);
+}

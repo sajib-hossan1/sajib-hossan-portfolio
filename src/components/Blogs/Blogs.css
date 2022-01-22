@@ -1,0 +1,9 @@
+.blogs-container {
+  padding-top: 75px;
+  margin-bottom: 50px;
+}
+
+.blogs-container h2 {
+  text-align: center;
+  padding: 40px;
+}

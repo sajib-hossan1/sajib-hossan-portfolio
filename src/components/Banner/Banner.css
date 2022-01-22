@@ -1,0 +1,62 @@
+.banner-container {
+  padding-top: 50px;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+}
+
+.resume-btn {
+  background-color: #fb6957;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.resume-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.resume-btn:hover {
+  transform: scale(1.03);
+}
+
+.banner-icon .fab {
+  margin: 20px;
+  font-size: 26px;
+}
+
+.banner-icon .fa-linkedin-in {
+  color: #046aaa;
+  transition: 0.2s ease-in-out;
+}
+
+.banner-icon .fa-linkedin-in:hover {
+  transform: translateY(-7px);
+}
+
+.banner-icon .fa-github {
+  color: #110606;
+  transition: 0.2s ease-in-out;
+}
+
+.banner-icon .fa-github:hover {
+  transform: translateY(-7px);
+}
+
+.banner-icon .fa-twitter {
+  color: #1b9ae9;
+  transition: 0.2s ease-in-out;
+}
+
+.banner-icon .fa-twitter:hover {
+  transform: translateY(-7px);
+}

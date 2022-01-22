@@ -1,0 +1,42 @@
+.footer-section {
+  background-color: #0b0d17;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-section h1 {
+  color: #fb8e48;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-icon .fab {
+  margin: 20px;
+  font-size: 26px;
+}
+
+.footer-icon .fa-linkedin-in {
+  color: #046aaa;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-icon .fa-linkedin-in:hover {
+  transform: translateY(-7px);
+}
+
+.footer-icon .fa-github {
+  color: #ffffff;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-icon .fa-github:hover {
+  transform: translateY(-7px);
+}
+
+.footer-icon .fa-twitter {
+  color: #1b9ae9;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-icon .fa-twitter:hover {
+  transform: translateY(-7px);
+}

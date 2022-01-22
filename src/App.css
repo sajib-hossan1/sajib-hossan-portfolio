@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.section-title {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
