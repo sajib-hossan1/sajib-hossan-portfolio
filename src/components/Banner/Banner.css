@@ -1,9 +1,18 @@
 .banner-container {
   padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.banner-text {
+  padding-top: 65px;
 }
 
 .banner-text h1 {
   font-size: 50px;
+}
+
+.banner-text h2 {
+  font-size: 30px;
 }
 
 .resume-btn {
@@ -59,4 +68,64 @@
 
 .banner-icon .fa-twitter:hover {
   transform: translateY(-7px);
+}
+
+.banner-img img {
+  max-width: 450px;
+}
+
+/* media screen */
+
+@media screen and (max-width: 992px) {
+  .banner-container {
+    margin-bottom: 0px;
+  }
+
+  .banner-text {
+    padding-top: 20px;
+  }
+
+  .banner-img img {
+    max-width: 350px;
+  }
+
+  .banner-text h1 {
+    font-size: 40px;
+  }
+
+  .banner-text h2 {
+    font-size: 25px;
+  }
+
+  .resume-btn {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .banner-text {
+    padding-top: 0px;
+  }
+
+  .banner-img img {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner-text {
+    padding-top: 0px;
+  }
+
+  .banner-text h1 {
+    font-size: 35px;
+  }
+
+  .banner-text h2 {
+    font-size: 25px;
+  }
+
+  .resume-btn {
+    font-size: 14px;
+  }
 }
