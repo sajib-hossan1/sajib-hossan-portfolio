@@ -9,6 +9,10 @@ import resume from '../../resume/Sajib_Hossan_WebDeveloper_Resume_2022.pdf'
 const Banner = () => {
     return (
         <div className="banner-container">
+            <div className="effect-wrap">
+                <div className="effect effect-1"></div>
+                <div className="effect effect-2"></div>
+            </div>
             <Container>
                 <Row className="mt-2 banner-row flex-sm-row-reverse">
                     <Col sm={12} md={6} lg={6}>
@@ -25,7 +29,7 @@ const Banner = () => {
                                     Hello,
                                 </h2>
                                 <h1>
-                                    I'm Md. Sajib Hossan
+                                    I'm Sajib Hossan
                                 </h1>
                                 <h2>I'm a
                                     <span style={{ color: 'red', fontWeight: 'bold', marginLeft:'10px' }}>
