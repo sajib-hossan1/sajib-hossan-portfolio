@@ -1,8 +1,10 @@
 .banner-container {
   padding-top: 50px;
-  /* margin-bottom: 30px; */
-  padding-bottom: 40px;
-  background: #edfaff;
+  padding-bottom: 110px;
+  background-color: #edfaff;
+  background-image: url("../../images//shape.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
   /* transform: skewY(-12deg); */
 }
 
@@ -147,6 +149,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .banner-container {
+    padding-bottom: 65px;
+  }
+
   .banner-text {
     padding-top: 0px;
     margin-top: -10px !important;
