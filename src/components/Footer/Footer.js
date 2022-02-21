@@ -10,6 +10,9 @@ const Footer = () => {
                 <a href="https://github.com/sajib-hossan1"><i className="fab fa-github"></i></a>
                 <a href="https://twitter.com/mdsajibhossan14"><i className="fab fa-twitter"></i></a>
             </div>
+            <div className="copy-right-text">
+                <p>&copy; All Rights Reserved By Md. Sajib Hossan | 2022</p>
+            </div>
         </div>
     );
 };
