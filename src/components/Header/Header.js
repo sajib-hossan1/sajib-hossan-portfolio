@@ -11,7 +11,7 @@ const Header = () => {
                     <Navbar.Brand className="nav-brand" href="#home">Sajib Hossan</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mx-auto nav">
+                    <Nav className="ms-auto nav">
                         <Nav.Link className="nav-link" as={HashLink} to="/home#home">Home</Nav.Link>
                         <Nav.Link className="nav-link" as={HashLink} to="/home#about">About</Nav.Link>
                         <Nav.Link className="nav-link" as={HashLink} to="/home#projects">Projects</Nav.Link>

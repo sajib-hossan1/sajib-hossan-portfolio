@@ -14,7 +14,7 @@ export const Projects = () => {
 
     return (
         <div id="projects" className="projects-container">
-            <h1 className="section-title">Projects</h1>
+            <h1 className="section-title section-projects-title">Projects</h1>
             <Container>
                 <Row className="p-4" gap={5}>
                     {
