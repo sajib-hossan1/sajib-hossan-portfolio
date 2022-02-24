@@ -10,17 +10,23 @@
 
 .pr-img {
   overflow: hidden;
+  margin-top: 15px;
 }
 
 .pr-img img {
   height: 400px;
-  transform: translateY(120px) scale(1.5);
+  transform: translateY(120px) scale(1.55);
+  transition: 4s;
+}
+
+.card:hover img {
+  transform: translateY(-110px) scale(1.55);
 }
 
 .card-details {
   padding: 20px 0px;
   margin-top: 10px;
-  color: #fb6a58;
+  color: #ff604b;
 }
 
 .project-dtls-btn {

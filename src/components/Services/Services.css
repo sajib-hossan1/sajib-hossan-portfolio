@@ -1,0 +1,5 @@
+.bt {
+  color: crimson;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+}

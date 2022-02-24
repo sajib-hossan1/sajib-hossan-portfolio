@@ -56,7 +56,6 @@ const Banner = () => {
                     </Col>
                 </Row>
             </Container>
-            <div className="curve"></div>
         </div>
     );
 };

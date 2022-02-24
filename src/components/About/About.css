@@ -34,6 +34,26 @@
   font-size: 18px;
 }
 
+.about-text {
+  color: black;
+}
+
+.about-hgl-txt i {
+  color: #ff604b;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.about-hgl-txt p {
+  font-size: 15p;
+}
+
+.about-hgl-txt h5 {
+  font-size: 19px;
+  color: black;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 700px) {
   .section-title-about::after {
     font-size: 16px;

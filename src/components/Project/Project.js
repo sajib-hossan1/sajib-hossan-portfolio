@@ -12,7 +12,8 @@ const Project = ({project}) => {
         <Col className="p-2 mt-2" sm={12} md={6} xl={4}>
             <div className="card" data-aos="zoom-in" data-aos-duration="2000">
                 <div className="pr-img">
-                    <img className="img-fluid" src={full_ss} alt="" />
+                {/* style={{backgroundImage: `url(${full_ss})`}} */}
+                    <img className="img-flui" src={full_ss} alt="" />
                 </div>
                 <div className="card-details">
                     <h3>{project_name}</h3>
