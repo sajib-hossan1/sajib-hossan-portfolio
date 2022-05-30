@@ -29,7 +29,7 @@ const About = () => {
                                 <h5>Here are a few highlights :</h5>
                                 <div className='d-flex align-items-center'>
                                     <i className="fa-solid fa-circle"></i>
-                                    <p className='m-0'>Full Stack web and mobile development</p>
+                                    <p className='m-0'>Full Stack Web Development</p>
                                 </div>
                                 <div className='d-flex align-items-center'>
                                     <i className="fa-solid fa-circle"></i>
@@ -49,7 +49,7 @@ const About = () => {
                                 </div>
                                 <div className='d-flex align-items-center'>
                                     <i className="fa-solid fa-circle"></i>
-                                    <p className='m-0'>Managing database</p>
+                                    <p className='m-0'>Managing Database (MongoDb)</p>
                                 </div>
                             </div>
                         </div>

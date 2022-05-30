@@ -4,20 +4,29 @@ import useAos from '../../hooks/useAos';
 import './Project.css'
 
 const Project = ({project}) => {
-    const {project_name, full_ss } = project;
+    const {project_name, live_site, github_client, github_server, thumb1, thumb2, technology } = project;
 
     useAos();
-
     return (
-        <Col className="p-2 mt-2" sm={12} md={6} xl={4}>
+        <Col className='mx-auto' sm={12} md={6} xl={5}>
             <div className="card" data-aos="zoom-in" data-aos-duration="2000">
                 <div className="pr-img">
-                {/* style={{backgroundImage: `url(${full_ss})`}} */}
-                    <img className="img-flui" src={full_ss} alt="" />
+                    <img src={thumb1} alt="" />
+                    { thumb2 && <img src={thumb2} className="img-hover" alt="" /> }
+                </div>
+                <div className="technology-used-btn">
+                    {
+                        technology?.map((item, i) => <button key={i} style={{background : `${item.bgColor}`}}>{item.name}</button>)
+                    }
                 </div>
                 <div className="card-details">
                     <h3>{project_name}</h3>
-                    <button className="project-dtls-btn">Project Details</button>
+                    <a href={live_site} target="_blank" rel="noopener noreferrer">Demo</a>
+                </div>
+                <div className="project-code-links">
+                    <span>Code : </span>
+                    <a href={github_client} target="_blank" rel="noopener noreferrer">GitHub-Client</a>
+                    { github_server && <a href={github_server} target="_blank" rel="noopener noreferrer">GitHub-Server</a>}
                 </div>
             </div>
         </Col>

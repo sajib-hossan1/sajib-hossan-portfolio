@@ -16,7 +16,7 @@ export const Projects = () => {
         <div id="projects" className="projects-container">
             <h1 className="section-title section-projects-title">Projects</h1>
             <Container>
-                <Row className="p-4" gap={5}>
+                <Row className="g-5 m-0">
                     {
                         projects.map(project => <Project
                             key={project.id}

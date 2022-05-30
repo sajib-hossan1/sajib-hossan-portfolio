@@ -2,6 +2,9 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.061);
   border: none;
   transition: box-shadow 0.3s ease-in-out;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: -20px;
 }
 
 .card:hover {
@@ -9,33 +12,61 @@
 }
 
 .pr-img {
-  overflow: hidden;
-  margin-top: 15px;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 .pr-img img {
-  height: 400px;
-  transform: translateY(120px) scale(1.55);
-  transition: 4s;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
 
-.card:hover img {
-  transform: translateY(-110px) scale(1.55);
+.img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
 }
+
+.card:hover .img-hover {
+  opacity: 1;
+}
+
 
 .card-details {
-  padding: 20px 0px;
-  margin-top: 10px;
+  margin-top: 15px;
+  padding: 15px 0px 0px;
   color: #ff604b;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-details a {
+  text-decoration: none;
+  color: #fe5741;
+  border: 1px solid #ff604b85;
+  height: max-content;
+  padding: 3px 10px;
+  border-radius: 3px;
+  transition: .2s ease-in;
+}
+
+.card-details a:hover {
+  color: white;
+  background-color: #ff604b;
 }
 
 .project-dtls-btn {
   background-color: #ff604b;
   border: none;
   outline: none;
-  padding: 8px 20px;
-  border-radius: 10px;
-  font-size: 16px;
+  padding: 8px 14px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 15px;
   font-weight: 500;
   text-decoration: none;
   color: white;
@@ -45,3 +76,50 @@
 .project-dtls-btn:hover {
   transform: scale(1.03);
 }
+
+.project-code-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-code-links a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #fe5741;
+  border: 1px solid #ff604b85;
+  height: max-content;
+  padding: 4px 12px;
+  border-radius: 3px;
+  transition: .2s ease-in;
+}
+
+.project-code-links a:hover {
+  color: white;
+  background-color: #ff604b;
+}
+
+.technology-used-btn {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.technology-used-btn button{
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 12px;
+}
+
+/* "technology" : [
+                {"name" : "HTML5", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"},
+                {"name" : "CSS3", "bgColor" : "linear-gradient(to right, #36E184, #7AEF4D)"},
+                {"name" : "React", "bgColor" : "linear-gradient(to right, #FF1D52, #FF4C6E)"},
+                {"name" : "React Router", "bgColor" : "linear-gradient(to right, #ff8008, #ffc837)"},
+                {"name" : "Firebase", "bgColor" : "linear-gradient(to right, #0052d4, #4364f7, #6fb1fc)"},
+                {"name" : "NodeJS", "bgColor" : "linear-gradient(to right, #1488cc, #2b32b2)"},
+                {"name" : "MongoDb", "bgColor" : "linear-gradient(to right, #4776e6, #8e54e9)"}
+            ], */
