@@ -66,7 +66,7 @@
             {"name" : "Date Range", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"}
         ],
         "thumb1" : "https://i.ibb.co/n0KfdJ8/new3-picsaysdhj.jpg",
-        "live_site" : "https://sajib-hossan1.github.io/panda-commerce-bootstrap/",
-        "github_client" : "https://booking-hotel-app.netlify.app/"
+        "live_site" : "https://booking-hotel-app.netlify.app/",
+        "github_client" : "https://github.com/sajib-hossan1/hotel-booking-app"
     }
 ]
