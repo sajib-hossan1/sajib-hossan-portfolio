@@ -35,12 +35,8 @@ const Contact = () => {
                 e.target.reset();
                 setSpinner(false);
             }
-            else{
-                notify('error')
-            }
-          console.log(result.text);
         }, (error) => {
-          console.log(error.text);
+            notify('error')
         });
 
     }

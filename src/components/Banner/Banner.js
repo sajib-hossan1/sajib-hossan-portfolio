@@ -7,6 +7,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Roll } from 'react-awesome-reveal';
 
 const Banner = () => {
     const words = ['Jr Web Developer', 'React Devbeloper', 'Front End Developer' , 'MERN Stack Developer', 'Web Designer'];
@@ -33,32 +34,34 @@ const Banner = () => {
                         </div>
                     </Col>
                     <Col className="p-2 mt-2" sm={12} md={6} lg={6}>
-                        <div className="banner-text mt-3" data-aos="fade-up">
-                            <h2 className='m-0'>
-                                Hello,
-                            </h2>
-                            <h1>
-                                I'm Sajib Hossan
-                            </h1>
-                            <h2>I'm a
-                                <span style={{ color: 'red', fontWeight: 'bold', marginLeft:'10px' }}>
-                                    {text}
-                                    <Cursor
-                                    cursor
-                                    cursorStyle='_'
-                                    typeSpeed={70}
-                                    deleteSpeed={50}
-                                    delaySpeed={1000}
-                                    />
-                                </span>
-                            </h2>
-                            <div className="banner-icon">
-                                <a href="https://www.linkedin.com/in/md-sajib-hossan/"><i className="fab fa-linkedin-in"></i></a>
-                                <a href="https://github.com/sajib-hossan1"><i className="fab fa-github"></i></a>
-                                <a href="https://twitter.com/mdsajibhossan14"><i className="fab fa-twitter"></i></a>
+                        <Roll>
+                            <div className="banner-text mt-3" data-aos="fade-up">
+                                <h2 className='m-0'>
+                                    Hello,
+                                </h2>
+                                <h1>
+                                    I'm Sajib Hossan
+                                </h1>
+                                <h2>I'm a
+                                    <span style={{ color: 'red', fontWeight: 'bold', marginLeft:'10px' }}>
+                                        {text}
+                                        <Cursor
+                                        cursor
+                                        cursorStyle='_'
+                                        typeSpeed={70}
+                                        deleteSpeed={50}
+                                        delaySpeed={1000}
+                                        />
+                                    </span>
+                                </h2>
+                                <div className="banner-icon">
+                                    <a href="https://www.linkedin.com/in/md-sajib-hossan/"><i className="fab fa-linkedin-in"></i></a>
+                                    <a href="https://github.com/sajib-hossan1"><i className="fab fa-github"></i></a>
+                                    <a href="https://twitter.com/mdsajibhossan14"><i className="fab fa-twitter"></i></a>
+                                </div>
+                                <button className="resume-btn"><a href={resume}>Download Resume</a></button>
                             </div>
-                            <button className="resume-btn"><a href={resume}>Download Resume</a></button>
-                        </div>
+                        </Roll>
                     </Col>
                 </Row>
             </Container>
