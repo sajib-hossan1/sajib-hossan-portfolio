@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col } from 'react-bootstrap';
-import useAos from '../../hooks/useAos';
 import './Project.css'
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project = ({project}) => {
     const {project_name, live_site, github_client, github_server, thumb1, thumb2, technology } = project;
 
-    useAos();
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
         <Col className='mx-auto' sm={12} md={6} xl={5}>
-            <div className="card" data-aos="zoom-in" data-aos-duration="2000">
+            <div className="card"  data-aos="zoom-in" data-aos-duration="1500">
                 <div className="pr-img">
                     <img src={thumb1} alt="" />
                     { thumb2 && <img src={thumb2} className="img-hover" alt="" /> }

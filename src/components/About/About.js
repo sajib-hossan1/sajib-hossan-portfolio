@@ -1,25 +1,29 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './About.css'
 import aboutImg from '../../images/about.png';
-import useAos from '../../hooks/useAos';
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
-
-    useAos();
-    
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+      
     return (
         <div id="about" className="about-container">
             <h1 className="section-title section-title-about">About Me</h1>
             <Container>
                 <Row className="p-4">
-                    <Col className="p-2 mt-2" sm={12} md={6}>
-                        <div className="about-img text-center" data-aos="fade-up" data-aos-duration="2000">
+                    <Col data-aos="fade-up" data-aos-duration="1200" className="p-2 mt-2" sm={12} md={6}>
+                        <div className="about-img text-center">
                             <img className="img-fluid" src={aboutImg} alt="" />
                         </div>
                     </Col>
                     <Col sm={12} md={6} className="d-flex align-items-center justify-content-center">
-                        <div className="about-text" data-aos="fade-up" data-aos-duration="2000">
+                        <div data-aos="fade-up" data-aos-duration="1200" className="about-text">
                             <h3>Hello, I'm Md. Sajib Hossan</h3>
                             <p>I'm from Bangladesh. I always love to explore new things. I am interested in Web Development. I love to code and always try to make new websites with creative ideas.</p>
                             <p>I'm passionate to do coding because I love this field. I make fully mobile responsive and real-world websites. I make front-end and back-end websites also.</p>
