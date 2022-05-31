@@ -21,7 +21,7 @@ const Project = ({project}) => {
                 </div>
                 <div className="technology-used-btn">
                     {
-                        technology?.map((item, i) => <button key={i} style={{background : `${item.bgColor}`}}>{item.name}</button>)
+                        technology?.map((item, i) => <button className='technology-btn' key={i}>{item.name}</button>)
                     }
                 </div>
                 <div className="card-details">

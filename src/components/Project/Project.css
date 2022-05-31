@@ -1,14 +1,14 @@
 .card {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.061);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.120);
   border: none;
-  transition: box-shadow 0.3s ease-in-out;
   padding: 15px;
   border-radius: 10px;
   margin-top: -20px;
+  transition: box-shadow 0.3s ease-in-out !important;
 }
 
 .card:hover {
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.192);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.292);
 }
 
 .pr-img {
@@ -59,24 +59,6 @@
   background-color: #ff604b;
 }
 
-.project-dtls-btn {
-  background-color: #ff604b;
-  border: none;
-  outline: none;
-  padding: 8px 14px;
-  margin: 10px;
-  border-radius: 5px;
-  font-size: 15px;
-  font-weight: 500;
-  text-decoration: none;
-  color: white;
-  transition: 0.2s ease-in-out;
-}
-
-.project-dtls-btn:hover {
-  transform: scale(1.03);
-}
-
 .project-code-links {
   margin-top: 15px;
   display: flex;
@@ -103,7 +85,7 @@
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 .technology-used-btn button{
@@ -114,12 +96,12 @@
   padding: 5px 12px;
 }
 
-/* "technology" : [
-                {"name" : "HTML5", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"},
-                {"name" : "CSS3", "bgColor" : "linear-gradient(to right, #36E184, #7AEF4D)"},
-                {"name" : "React", "bgColor" : "linear-gradient(to right, #FF1D52, #FF4C6E)"},
-                {"name" : "React Router", "bgColor" : "linear-gradient(to right, #ff8008, #ffc837)"},
-                {"name" : "Firebase", "bgColor" : "linear-gradient(to right, #0052d4, #4364f7, #6fb1fc)"},
-                {"name" : "NodeJS", "bgColor" : "linear-gradient(to right, #1488cc, #2b32b2)"},
-                {"name" : "MongoDb", "bgColor" : "linear-gradient(to right, #4776e6, #8e54e9)"}
-            ], */
+.technology-btn {
+  color: #ff604b !important;
+  border: none;
+  outline: none;
+  padding: 5px 10px ;
+  font-weight: 500;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+}
