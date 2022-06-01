@@ -25,3 +25,10 @@
 .nav-link:hover {
   color: rgb(124, 124, 124) !important;
 }
+
+.menu-bar {
+  color: black !important;
+  font-size: 26px !important;
+  border: none !important;
+  outline: none !important;
+}
