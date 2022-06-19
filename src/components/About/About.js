@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './About.css'
 import aboutImg from '../../images/about.png';
 
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -14,7 +15,7 @@ const About = () => {
       
     return (
         <div id="about" className="about-container">
-            <h1 className="section-title section-title-about">About Me</h1>
+            <h1 className="section-title section-title-about">ABOUT ME</h1>
             <Container>
                 <Row className="p-4">
                     <Col data-aos="fade-up" data-aos-duration="1200" className="p-2 mt-2" sm={12} md={6}>

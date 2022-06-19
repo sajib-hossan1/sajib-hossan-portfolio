@@ -34,7 +34,8 @@
         "technology" : [
             {"name" : "HTML5", "bgColor" : "linear-gradient(to right, #ff8008, #ffc837)"},
             {"name" : "CSS3", "bgColor" : "linear-gradient(to right, #FF1D52, #FF4C6E)"},
-            {"name" : "Bootstrap", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"}
+            {"name" : "Bootstrap", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"},
+            {"name" : "Responsive", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"}
         ],
         "thumb1" : "https://i.ibb.co/JtVLm7p/honda-hut-thumb-1.jpg",
         "thumb2" : "https://i.ibb.co/qxw1YZ8/honda-hut-responsive.jpg",

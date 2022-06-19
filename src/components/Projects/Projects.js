@@ -14,7 +14,7 @@ export const Projects = () => {
 
     return (
         <div id="projects" className="projects-container">
-            <h1 className="section-title section-projects-title">Projects</h1>
+            <h1 className="section-title section-projects-title">PROJECTS</h1>
             <Container>
                 <Row className="g-5 m-0">
                     {

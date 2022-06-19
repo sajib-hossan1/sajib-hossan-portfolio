@@ -67,7 +67,7 @@ const Contact = () => {
 
     return (
         <div id="contact" className="form-container">
-            <h2 className="section-title contact-section-title">Contact With Me</h2>
+            <h2 className="section-title contact-section-title">CONTACT WITH ME</h2>
             <div className="container mt-5">
                 <div className="row">
                     <div data-aos="fade-down" data-aos-duration="1200" className="col-lg-6 col-md-6 col-sm-12">

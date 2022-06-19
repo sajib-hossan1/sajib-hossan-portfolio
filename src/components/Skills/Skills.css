@@ -1,0 +1,96 @@
+.services-container {
+  padding-top: 75px;
+  text-align: center;
+}
+
+.section-services-title {
+  position: relative;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.section-services-title::before {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background-color: #111;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.section-services-title::after {
+  content: "what I do";
+  background-color: rgb(255, 255, 255);
+  color: #ff604b;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  padding: 5px;
+  transform: translate(-50%);
+  font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .section-services-title::after {
+    font-size: 16px;
+  }
+}
+
+.service-card {
+  background-color: #F6F6F6;
+  padding: 20px 30px;
+  color: black;
+  position: relative;
+  z-index: 5;
+  box-shadow: -12px -12px 25px white, 12px 12px 25px rgba(0, 0, 0, 0.181);
+
+}
+
+.service-card::after {
+  content: '';
+  background: #ff604b;
+  height: 1.5%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: .3s ease-in;
+}
+
+.service-card:hover:after {
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #ff604b8e);
+  color: white;
+}
+
+
+.service-card img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.service-card h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  margin: 0;
+  line-height: 18px;
+  color: rgb(53, 53, 53);
+}
+
+@media screen and (max-width:1200px) {
+  .service-card h2 {
+    font-size: 24px;
+  }
+}
+
+.tech-title {
+  margin-top: 50px;
+  font-size: 24px;
+  color: black;
+}

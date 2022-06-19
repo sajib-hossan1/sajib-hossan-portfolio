@@ -18,8 +18,9 @@
 
 .nav-link {
   font-weight: 500;
-  font-size: 17px;
+  font-size: 19px;
   color: black !important;
+  margin-left: 25px;
 }
 
 .nav-link:hover {

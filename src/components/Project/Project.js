@@ -13,7 +13,7 @@ const Project = ({project}) => {
         AOS.refresh();
       }, []);
     return (
-        <Col className='mx-auto' sm={12} md={6} xl={5} data-aos-offset="90" data-aos="zoom-in" data-aos-duration="1200">
+        <Col className='mx-auto' sm={12} md={6} xl={4} data-aos-offset="90" data-aos="zoom-in" data-aos-duration="1200">
             <div className="card">
                 <div className="pr-img">
                     <img src={thumb1} alt="" />
