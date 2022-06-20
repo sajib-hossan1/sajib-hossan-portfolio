@@ -45,7 +45,6 @@
   position: relative;
   z-index: 5;
   box-shadow: -12px -12px 25px white, 12px 12px 25px rgba(0, 0, 0, 0.181);
-
 }
 
 .service-card::after {
@@ -93,4 +92,34 @@
   margin-top: 50px;
   font-size: 24px;
   color: black;
+}
+
+.tech-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.tech-box {
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.100);
+}
+
+.tech-box:hover {
+  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.181);
+}
+
+.tech-box img {
+  height: 45px;
+}
+
+.tech-box h5 {
+  font-size: 20px;
+  font-weight: 400;
 }
