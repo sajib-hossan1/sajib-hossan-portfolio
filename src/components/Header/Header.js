@@ -1,26 +1,44 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
-import { HashLink } from 'react-router-hash-link';
+import { useState } from 'react';
 import './Header.css'
 
 const Header = () => {
+    const [navIsOpen, setNavIsOpen] = useState(false);
+
+    const click = () => {
+        if(document.getElementById("navbarNavAltMarkup").classList.contains("show")){
+            document.getElementById("navbarNavAltMarkup").classList.remove("show");
+            setNavIsOpen(false);
+        }
+        else{
+            return;
+        }
+    }
     return (
         <div className="header-container">
-            <Navbar className="nav-bar" bg="light" fixed="top" expand="lg">
-                <Container>
-                    <Navbar.Brand className="nav-brand" href="#home">Sajib Hossan</Navbar.Brand>
-                    <Navbar.Toggle className='menu-bar' aria-controls="basic-navbar-nav"><i className="fa-solid fa-bars-staggered"></i></Navbar.Toggle>
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto nav">
-                            <Nav.Link className="nav-link" as={HashLink} to="/home#home">Home</Nav.Link>
-                            <Nav.Link className="nav-link" as={HashLink} to="/home#about">About</Nav.Link>
-                            <Nav.Link className="nav-link" as={HashLink} to="/home#skills">Skills</Nav.Link>
-                            <Nav.Link className="nav-link" as={HashLink} to="/home#projects">Projects</Nav.Link>
-                            <Nav.Link className="nav-link" as={HashLink} to="/home#contact">Contact</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+            <nav className="navbar nav-bar navbar-expand-lg bg-light fixed-top">
+                <div className="container">
+                    <a className="nav-brand" href="#home">Sajib Hossan</a>
+
+                    <button onClick={() => setNavIsOpen(!navIsOpen)} className="menu-bar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        {
+                            navIsOpen ? <i className="fa-solid fa-xmark fs-2 me-1"/> : <i className="fa-solid fa-bars-staggered" />
+                        }
+                    </button>
+
+                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div onClick={() => click()} className="navbar-nav ms-auto">
+                            <a className="nav-link" href="/home#home">Home</a>
+                            <a className="nav-link" href="/home#about">About</a>
+                            <a className="nav-link" href="/home#skills">Skills</a>
+                            <a className="nav-link" href="/home#projects">Projects</a>
+                            <a className="nav-link" href="/home#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
         </div>
     );
 };
