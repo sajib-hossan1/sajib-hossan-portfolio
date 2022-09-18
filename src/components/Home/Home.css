@@ -1,0 +1,52 @@
+.back-top-btn-C {
+    position: fixed;
+    right: 40px;
+    bottom: -50px;
+    background-color: #ff604b;
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: bottom .8s ease-in-out;
+    visibility: hidden;
+    animation: backToTopBtn 3s ease-in-out infinite;
+}
+
+.back-to-top-btn.visible > .back-top-btn-C {
+    visibility: visible;
+    bottom: 40px;
+}
+
+.back-top-btn-C i {
+    color: white;
+    font-size: larger;
+}
+
+
+.back-top-btn-C:hover {
+    background-color: #e8442f;
+    color: white;
+    transition: .2s ease-in-out;
+}
+
+
+
+@keyframes backToTopBtn {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(7px);
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    .back-top-btn-C {
+        right: 20px;
+    }
+}

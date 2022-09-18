@@ -28,11 +28,11 @@ const Header = () => {
 
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div onClick={() => click()} className="navbar-nav ms-auto">
-                            <a className="nav-link" href="/home#home">Home</a>
-                            <a className="nav-link" href="/home#about">About</a>
-                            <a className="nav-link" href="/home#skills">Skills</a>
-                            <a className="nav-link" href="/home#projects">Projects</a>
-                            <a className="nav-link" href="/home#contact">Contact</a>
+                            <a className="nav-link" href="/#home">Home</a>
+                            <a className="nav-link" href="/#about">About</a>
+                            <a className="nav-link" href="/#skills">Skills</a>
+                            <a className="nav-link" href="/#projects">Projects</a>
+                            <a className="nav-link" href="/#contact">Contact</a>
                         </div>
                     </div>
                 </div>
