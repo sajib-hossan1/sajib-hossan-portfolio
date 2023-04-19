@@ -76,6 +76,10 @@
 
 .banner-img img {
   width: 450px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  filter: saturate(1.4);
+  padding: 7px;
   animation: bannerImg 3s ease-in-out infinite;
 }
 

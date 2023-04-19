@@ -27,7 +27,7 @@ const Home = () => {
             <Contact></Contact>
             <a href="#home" className={isScroll ? "back-to-top-btn visible" : "back-to-top-btn"} title='Go To Top'>
                 <div className="back-top-btn-C">
-                        <i className="fa-sharp fa-solid fa-arrow-up" />
+                    <i className="fa-sharp fa-solid fa-arrow-up" />
                 </div>
                 </a>
         </div>

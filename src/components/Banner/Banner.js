@@ -29,8 +29,8 @@ const Banner = () => {
             <Container>
                 <Row className="mt-2 banner-row flex-sm-row-reverse">
                     <Col sm={12} md={6} lg={6}>
-                        <div data-aos="fade-left" data-aos-duration="2000" className="banner-img mt-4 text-center">
-                            <img className="img-fluid pt-3" src={bannerImg} alt="" />
+                        <div data-aos="fade-left" data-aos-duration="2000" className="banner-img mt-5 text-center">
+                            <img className="img-fluid" src={bannerImg} alt="" />
                         </div>
                     </Col>
                     <Col className="p-2 mt-2" sm={12} md={6} lg={6}>
