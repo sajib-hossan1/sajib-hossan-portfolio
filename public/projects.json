@@ -1,13 +1,18 @@
 [
     {
         "id" : "1",
+        "project_name" : "EMart",
+        "technology" : ["React", "Firebase", "Context API", "NodeJS", "MongoDB"],
+        "thumb1" : "https://i.ibb.co/7CYc4Zv/emart-thumb-min.jpg",
+        "thumb2" : "https://i.ibb.co/PDnG0jZ/emart-responsive-min.jpg",
+        "live_site" : "https://react-ecommerce-sajib1.netlify.app/",
+        "github_client" : "https://github.com/sajib-hossan1/emart-ecommerce-website-client",
+        "github_server" : "https://github.com/sajib-hossan1/EMart-server"        
+    },
+    {
+        "id" : "2",
         "project_name" : "Drone World",
-        "technology" : [
-                {"name" : "React", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"},
-                {"name" : "Firebase", "bgColor" : "linear-gradient(to right, #FF1D52, #FF4C6E)"},
-                {"name" : "Material UI", "bgColor" : "linear-gradient(to right, #ff8008, #ffc837)"},
-                {"name" : "MongoDb", "bgColor" : "linear-gradient(to right, #0052d4, #4364f7, #6fb1fc)"}
-            ],
+        "technology" : ["React", "Firebase", "Material UI", "NodeJS", "MongoDB"],
         "thumb1" : "https://i.ibb.co/FsWsGt1/drone-world-1.jpg",
         "thumb2" : "https://i.ibb.co/1f73FVm/drone-world-all-device.jpg",
         "live_site" : "https://drone-world-3cf69.web.app/",
@@ -15,59 +20,39 @@
         "github_server" : "https://github.com/sajib-hossan1/drone-world-server-side"        
     },
     {
-        "id" : "2",
+        "id" : "3",
+        "project_name" : "Perfect Fit",
+        "technology" : ["React", "React Router", "Context API", "Firebase"],
+        "thumb1" : "https://i.ibb.co/TRvjwyk/drone-world-thumb1.jpg",
+        "thumb2" : "https://i.ibb.co/m6dNqP9/drone-world-responsive-thumb2.jpg",
+        "live_site" : "https://perfect-fit-50e3a.web.app/",
+        "github_client" : "https://github.com/sajib-hossan1/perfect-fit-gym-website"
+    },
+    {
+        "id" : "4",
+        "project_name" : "PChamp",
+        "technology" : ["React", "React Router", "React Slick", "Bootstrap"],
+        "thumb1" : "https://i.ibb.co/JKL8Y1B/pchamp-thumb-min.jpg",
+        "thumb2" : "https://i.ibb.co/zSd63CW/pchamp-responsive-min.jpg",
+        "live_site" : "https://programmingchamp.netlify.app/",
+        "github_client" : "https://github.com/sajib-hossan1/programming-champ"   
+    },
+    {
+        "id" : "5",
         "project_name" : "Cafena",
-        "technology" : [
-            {"name" : "HTML5", "bgColor" : "linear-gradient(to right, #ff8008, #ffc837)"},
-            {"name" : "CSS3", "bgColor" : "linear-gradient(to right, #FF1D52, #FF4C6E)"},
-            {"name" : "Javascript", "bgColor" : "linear-gradient(to right, #36E184, #7AEF4D)"},
-            {"name" : "Bootstrap", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"}
-        ],
+        "technology" : ["HTML5", "CSS3", "Javascript", "Bootstrap"],
         "thumb1" : "https://i.ibb.co/f1ZsNps/coffee-page.jpg",
         "thumb2" : "https://i.ibb.co/RSc1Trs/cafena-responsive.jpg",
         "live_site" : "https://sajib-hossan1.github.io/coffee-shop/",
         "github_client" : "https://github.com/sajib-hossan1/coffee-shop"   
     },
     {
-        "id" : "3",
+        "id" : "6",
         "project_name" : "Honda Hut",
-        "technology" : [
-            {"name" : "HTML5", "bgColor" : "linear-gradient(to right, #ff8008, #ffc837)"},
-            {"name" : "CSS3", "bgColor" : "linear-gradient(to right, #FF1D52, #FF4C6E)"},
-            {"name" : "Bootstrap", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"},
-            {"name" : "Responsive", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"}
-        ],
+        "technology" : ["HTML5", "CSS3", "Bootstrap", "Responsive"],
         "thumb1" : "https://i.ibb.co/JtVLm7p/honda-hut-thumb-1.jpg",
         "thumb2" : "https://i.ibb.co/qxw1YZ8/honda-hut-responsive.jpg",
         "live_site" : "https://sajib-hossan1.github.io/honda-hut/",
         "github_client" : "https://github.com/sajib-hossan1/honda-hut"   
-    },
-    {
-        "id" : "4",
-        "project_name" : "Perfect Fit",
-        "technology" : [
-                {"name" : "React", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"},
-                {"name" : "React Router", "bgColor" : "linear-gradient(to right, #FF1D52, #FF4C6E)"},
-                {"name" : "NodeJs", "bgColor" : "linear-gradient(to right, #ff8008, #ffc837)"},
-                {"name" : "Heroku", "bgColor" : "linear-gradient(to right, #0052d4, #4364f7, #6fb1fc)"}
-            ],
-        "thumb1" : "https://i.ibb.co/TRvjwyk/drone-world-thumb1.jpg",
-        "thumb2" : "https://i.ibb.co/m6dNqP9/drone-world-responsive-thumb2.jpg",
-        "live_site" : "https://perfect-fit-50e3a.web.app/",
-        "github_client" : "https://github.com/sajib-hossan1/perfect-fit-gym-website",
-        "github_server" : "https://github.com/sajib-hossan1/perfect-fit-backend-server"
-    },
-    {
-        "id" : "5",
-        "project_name" : "Hotel Booking",
-        "technology" : [
-            {"name" : "React", "bgColor" : "linear-gradient(to right, #ff8008, #ffc837)"},
-            {"name" : "React Router", "bgColor" : "linear-gradient(to right, #FF1D52, #FF4C6E)"},
-            {"name" : "React Bootstrap", "bgColor" : "linear-gradient(to right, #36E184, #7AEF4D)"},
-            {"name" : "Date Range", "bgColor" : "linear-gradient(to right, #5D0DE2, #653DF4)"}
-        ],
-        "thumb1" : "https://i.ibb.co/n0KfdJ8/new3-picsaysdhj.jpg",
-        "live_site" : "https://booking-hotel-app.netlify.app/",
-        "github_client" : "https://github.com/sajib-hossan1/hotel-booking-app"
     }
 ]

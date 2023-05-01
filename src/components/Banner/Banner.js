@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Banner.css'
 import bannerImg from '../../images/banner-img.png'
-import resume from '../../resume/Sajib_Hossan_WebDeveloper_Resume_2022.pdf'
+import resume from '../../resume/Sajib_Hossan_WebDeveloper_Resume_2023.pdf'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 import AOS from "aos";

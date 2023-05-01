@@ -22,6 +22,7 @@ import tech11 from '../../images/tech/redux.png'
 import tech12 from '../../images/tech/typescript.png'
 import tech13 from '../../images/tech/git.png'
 import tech14 from '../../images/tech/figma.png'
+import tech15 from '../../images/tech/npm.png'
 
 
 const Skills = () => {
@@ -102,6 +103,10 @@ const Skills = () => {
                     <div className="tech-box">
                         <img src={tech11} alt="skill-img" />
                         <h5>Redux</h5>
+                    </div>
+                    <div className="tech-box">
+                        <img src={tech15} alt="skill-img" />
+                        <h5>NPM</h5>
                     </div>
                     <div className="tech-box">
                         <img src={tech12} alt="skill-img" />

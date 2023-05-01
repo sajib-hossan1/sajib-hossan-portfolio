@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './About.css'
-import aboutImg from '../../images/about.png';
+import aboutImg from '../../images/about.jpg';
 
 
 import AOS from "aos";
@@ -20,7 +20,7 @@ const About = () => {
                 <Row className="p-4">
                     <Col data-aos="fade-up" data-aos-duration="1200" className="p-2 mt-2" sm={12} md={6}>
                         <div className="about-img text-center">
-                            <img className="img-fluid" src={aboutImg} alt="" />
+                            <img className="img-fluid" src={aboutImg} alt="my-about-img" />
                         </div>
                     </Col>
                     <Col sm={12} md={6} className="d-flex align-items-center justify-content-center">

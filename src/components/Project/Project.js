@@ -21,7 +21,7 @@ const Project = ({project}) => {
                 </div>
                 <div className="technology-used-btn">
                     {
-                        technology?.map((item, i) => <button data-aos="zoom-in-up" data-aos-duration="900" className='technology-btn' key={i}>{item.name}</button>)
+                        technology?.map((item, i) => <button data-aos="zoom-in-up" data-aos-duration="900" className='technology-btn' key={i}>{item}</button>)
                     }
                 </div>
                 <div className="card-details">
